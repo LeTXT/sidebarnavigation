@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.sideBar {
+  position: absolute;
+  height: 97vh;
+  width: 50px;
+  max-width: 300px;
+
+  top: 1.5vh;
+  left: 5px;
+  background-color: white;
+
+  transition: 1s;
+
+  border-radius: 10px;
+
+}
+.sideBar:hover {
+  width: 50%;
+  max-width: 300px;
+
+  transition: 1s;
+
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25) ;
+}
+.sideBar .perfil {
+  display: flex;
+
+  align-items: center;
+
+  padding: 10px 0;
+}
+.sideBar .perfil img {
+  width: 45px;
+  border-radius: 50px;
+
+  margin: 0 2.5px;
+}
+.title {
+  max-height: 100%;
+
+  opacity: 0;
+
+  
+  
+}
+.sideBar:hover .title {
+  opacity: 1;
+
+  transition: opacity 0.3s 0.5s;
+  
+}
+@keyframes showTitle {
+  from {
+  display: none;
+  opacity: 0;
+  } 
+  to {
+    display: inline;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+  }
+}
+.line {
+  height: 1px;
+  width: 80%;
+
+  background-color: #EEEEEE;
+
+  margin: 15px auto;
+}
+h2 {
+  font-size: 17.55px;
+  white-space: nowrap;
+}
+
+.containerSideBar {
+  height: 100vh;
+  background-color: aqua;
+}
