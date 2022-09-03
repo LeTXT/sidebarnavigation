@@ -14,8 +14,18 @@ export default function SideBar() {
             </div>
             <div className="line"></div>
             <div>
-            
+            {array[0].menu.map((value, id) => {
+                return (
+                    <div key={id} className='menu'>
+                        <img src={value.img} alt={value.title} />
+                        <div className="title">
+                            <p>{value.title}</p>
+                        </div>
+                    </div>
+                )
+            })}
             </div>
+            <div className='line'></div>
         </div>
         </>
     )

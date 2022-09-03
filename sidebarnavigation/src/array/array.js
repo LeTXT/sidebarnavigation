@@ -1,9 +1,37 @@
 import  perfil  from '../img/perfil.svg'
+import  dashboard  from '../img/dashboard.svg'
+import  folder  from '../img/folder.svg'
+import  calendar  from '../img/calendar.svg'
+import  email  from '../img/email.svg'
+import  ring  from '../img/ring.svg'
+import  bag  from '../img/bag.svg'
 
 export const array = [{
     perfil: perfil,
     name: 'Anthony Alvarez',
     menu: [{
-        photo: ''
+        img: dashboard, 
+        title: 'Dashboard',
+        route: '',
+    }, {
+        img: folder, 
+        title: 'Folder',
+        route: '',
+    }, {
+        img: calendar, 
+        title: 'calendar',
+        route: '',
+    }, {
+        img: email, 
+        title: 'email',
+        route: '',
+    }, {
+        img: ring, 
+        title: 'Notification',
+        route: '',
+    }, {
+        img: bag, 
+        title: 'sales',
+        route: '',
     }]
 }]
