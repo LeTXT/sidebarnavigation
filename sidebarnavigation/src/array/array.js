@@ -1,4 +1,4 @@
-import  perfil  from '../img/perfil.svg'
+import  perfil  from '../img/perfil.png'
 import  dashboard  from '../img/dashboard.svg'
 import  folder  from '../img/folder.svg'
 import  calendar  from '../img/calendar.svg'
