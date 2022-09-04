@@ -19,11 +19,11 @@ export const array = [{
         route: '',
     }, {
         img: calendar, 
-        title: 'calendar',
+        title: 'Calendar',
         route: '',
     }, {
         img: email, 
-        title: 'email',
+        title: 'Email',
         route: '',
     }, {
         img: ring, 
@@ -31,7 +31,7 @@ export const array = [{
         route: '',
     }, {
         img: bag, 
-        title: 'sales',
+        title: 'Sales',
         route: '',
     }]
 }]
