@@ -72,8 +72,6 @@
 
   opacity: 0;
   
-  /* background-color: #3082FF; */
-  
 }
 .sideBar:hover .title {
   opacity: 1;
